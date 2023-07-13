@@ -28,6 +28,28 @@
 
   /* Effects */
 }
+/* CSS RESET */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+/* END OF CSS RESET */
 /* checked */
 body {
   font-family: "roboto", sans-serif;
@@ -35,6 +57,29 @@ body {
   font-size: 16px;
   letter-spacing: 0.03px;
 }
+.page-header {
+  display: flex;
+  height: 72px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+.nav-menu {
+  display: flex;
+  gap: 30px;
+}
+.contacts-menu {
+  display: flex;
+
+  margin-left: 800px;
+  gap: 30px;
+}
+
 /* checked */
 .logo-link {
   text-decoration: none;
@@ -43,6 +88,8 @@ body {
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.54px;
+  margin-left: 156px;
+  margin-right: 130px;
 }
 /* checked */
 .logo {
@@ -52,6 +99,7 @@ body {
 .studio {
   color: var(--navyblue, #2e2f42);
 }
+
 /* checked */
 .nav-menu .page {
   text-decoration: none;
@@ -68,6 +116,7 @@ body {
 .contacts-menu .item:focus {
   color: var(--iris);
 }
+
 /* checked */
 .hero-title {
   font-size: 56px;
@@ -75,7 +124,9 @@ body {
   line-height: 1.07;
   letter-spacing: 0.04em;
   color: var(--white);
+  padding-top: 188px;
 }
+
 /* checked */
 .bg-team {
   background-color: var(--cloud);
@@ -95,6 +146,7 @@ body {
 /* checked */
 .bg-hero {
   background-color: var(--navyblue);
+  height: 600px;
 }
 
 /* checked */
@@ -113,7 +165,9 @@ body {
   color: var(--white);
   line-height: 1.87;
   letter-spacing: 0.06em;
+  margin-left: 900px;
 }
+
 /* checked */
 .button.primary:hover,
 .button.primary:focus {
@@ -125,6 +179,14 @@ body {
   line-height: 1.17;
   color: var(--navyblue);
   text-align: center;
+  padding: 112px;
+  margin-top: 120px;
+}
+.container .benefits {
+  display: flex;
+  gap: 30px;
+  margin: 156px;
+  justify-content: space-between;
 }
 /* checked */
 .benefits .title {
@@ -139,6 +201,33 @@ body {
   font-weight: 400;
   line-height: 1.71;
 }
+.what-we-do {
+  display: flex;
+  margin-left: 156px;
+  margin-right: 156px;
+  margin-bottom: 150px;
+  justify-content: space-between;
+}
+.section-team {
+  background-color: var(--cloud);
+}
+.team.list {
+  display: flex;
+  margin-left: 156px;
+  margin-right: 156px;
+  justify-content: space-between;
+  border-radius: 0px 0px 4px 4px;
+}
+.team-card {
+  width: 270px;
+  height: 380px;
+  border-radius: 0px 0px 4px 4px;
+  background: var(--white, #fff);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  margin-bottom: 120px;
+}
 /* checked */
 .team .name {
   font-size: 20px;
@@ -146,6 +235,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--navyblue);
+  margin-top: 32px;
 }
 /* checked */
 .team .position {
@@ -153,10 +243,18 @@ body {
   font-size: 16px;
   font-weight: 400;
   text-align: center;
+  margin-bottom: 32px;
 }
+
 /* checked */
 .page-footer.bg-footer {
   background-color: var(--navyblue);
+  height: 312px;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding: 101.5px 1020px 100px 0px;
 }
 /* checked */
 .studio-footer {
@@ -165,6 +263,7 @@ body {
 /* checked */
 .footer-description {
   color: var(--cloud);
+  padding-left: 156px;
 }
 /* checked */
 .studio-2 {

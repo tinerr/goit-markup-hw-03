@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>studio</title>
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
@@ -14,27 +18,31 @@
   <body>
     <!--this is the header-->
     <header class="page-header">
-      <nav>
-        <a href="./index.html" class="logo-link">
-          <span class="logo">WEB</span>
-          <span class="studio">STUDIO</span>
-        </a>
+      <div class="container header-container">
+        <nav class="header-navigation">
+          <a href="./index.html" class="logo-link">
+            <span class="logo">WEB</span>
+            <span class="studio">STUDIO</span>
+          </a>
 
-        <ul class="nav-menu list">
-          <li><a href="./index.html" class="page current">Studio</a></li>
-          <li><a href="./portfolio.html" class="page">Portfolio</a></li>
-          <li><a href="#" class="page">Contacts</a></li>
+          <ul class="nav-menu list">
+            <li><a href="./index.html" class="page current">Studio</a></li>
+            <li><a href="./portfolio.html" class="page">Portfolio</a></li>
+            <li><a href="#" class="page">Contacts</a></li>
+          </ul>
+        </nav>
+
+        <ul class="contacts-menu list">
+          <li>
+            <a href="mailto:info@devstudio.com" class="item"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+110001111111" class="item">+11(000)111-11-11</a>
+          </li>
         </ul>
-      </nav>
-
-      <ul class="contacts-menu list">
-        <li>
-          <a href="mailto:info@devstudio.com" class="item"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li><a href="tel:+110001111111" class="item">+11(000)111-11-11</a></li>
-      </ul>
+      </div>
     </header>
 
     <!-- this is the main section -->
@@ -127,23 +135,23 @@
       </section>
 
       <!-- This is section3 -->
-      <section class="section">
+      <section class="section-team">
         <div class="container">
           <h2 class="section-title">Our Team</h2>
           <ul class="team list">
-            <li>
+            <li class="team-card">
               <img src="images/img4.jpg" alt="mark" width="270" height="260" />
               <h3 class="name">Mark Guerrero</h3>
               <p class="position">Product Designer</p>
             </li>
 
-            <li>
+            <li class="team-card">
               <img src="images/img5.jpg" alt="tom" width="270" height="260" />
               <h3 class="name">Tom Ford</h3>
               <p class="position">Frontend Developer</p>
             </li>
 
-            <li>
+            <li class="team-card">
               <img
                 src="images/img6.jpg"
                 alt="camila"
@@ -154,7 +162,7 @@
               <p class="position">Marketing</p>
             </li>
 
-            <li>
+            <li class="team-card">
               <img
                 src="images/img7.jpg"
                 alt="daniel"
