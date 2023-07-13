@@ -1,0 +1,204 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,700;1,500&family=Dancing+Script:wght@700&family=Poppins:ital,wght@0,400;0,500;0,700;1,200;1,400&family=Press+Start+2P&family=Roboto:wght@400;500;700;900&display=swap"); */
+
+:root {
+  /* Colors */
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navyblue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --lightslate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navyblu-emodal: rgba(46, 47, 66, 0.4);
+  --grey: rgba(46, 47, 66, 0.7);
+  --white: #ffffff;
+  --dairy: #fcfcfc;
+  --accent-color: #2196f3;
+
+  /* Fonts */
+  /* --header-1: 700 56px/60px "Roboto", sans-serif;
+  --header-2: 700 36px/40px "Roboto", sans-serif;
+  --header-3: 500 20px/24px "Roboto", sans-serif;
+  --body: 400 16px/24px "Roboto", sans-serif;
+  --body-medium: 500 16px/24px "Roboto", sans-serif;
+  --button-text: 500 16px/24px "Roboto", sans-serif;
+  --small-text: 400 12px/14px "Roboto", sans-serif;
+  --link-text: 400 12px/16px "Roboto", sans-serif; */
+
+  /* Effects */
+}
+/* checked */
+body {
+  font-family: "roboto", sans-serif;
+  color: var(--slate);
+  font-size: 16px;
+  letter-spacing: 0.03px;
+}
+/* checked */
+.logo-link {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+}
+/* checked */
+.logo {
+  color: var(--iris, #4d5ae5);
+}
+/* checked */
+.studio {
+  color: var(--navyblue, #2e2f42);
+}
+/* checked */
+.nav-menu .page {
+  text-decoration: none;
+  color: var(--navyblue);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+/* checked */
+.nav-menu .page:hover,
+.nav-menu .page:focus,
+.nav-menu .page.current,
+.contacts-menu .item:hover,
+.contacts-menu .item:focus {
+  color: var(--iris);
+}
+/* checked */
+.hero-title {
+  font-size: 56px;
+  text-align: center;
+  line-height: 1.07;
+  letter-spacing: 0.04em;
+  color: var(--white);
+}
+/* checked */
+.bg-team {
+  background-color: var(--cloud);
+}
+/* checked */
+.list {
+  list-style: none;
+}
+/* checked */
+.contacts-menu .item {
+  text-decoration: none;
+  color: var(--slate);
+  font-weight: 400;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+/* checked */
+.bg-hero {
+  background-color: var(--navyblue);
+}
+
+/* checked */
+.button {
+  border-color: transparent;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  font-size: 16px;
+  border-radius: 4px;
+}
+/* checked */
+.button.primary {
+  background: var(--iris, #4d5ae5);
+  color: var(--white);
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+/* checked */
+.button.primary:hover,
+.button.primary:focus {
+  background-color: var(--ocean);
+}
+/* checked */
+.section-title {
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--navyblue);
+  text-align: center;
+}
+/* checked */
+.benefits .title {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--navyblue);
+}
+/* checked */
+.benefits .description {
+  color: var(--slate, #434455);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.71;
+}
+/* checked */
+.team .name {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--navyblue);
+}
+/* checked */
+.team .position {
+  color: var(--slate);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+/* checked */
+.page-footer.bg-footer {
+  background-color: var(--navyblue);
+}
+/* checked */
+.studio-footer {
+  color: var(--cloud);
+}
+/* checked */
+.footer-description {
+  color: var(--cloud);
+}
+/* checked */
+.studio-2 {
+  color: var(--white);
+}
+/* checked */
+.button.filter {
+  background: var(--cloud);
+  color: var(--iris);
+  font-weight: 500;
+  line-height: 1.62;
+}
+/* checked */
+.button.filter:hover,
+.button.filter:focus,
+.button.filter.current {
+  background-color: var(--ocean);
+  color: var(--cloud);
+}
+/* checked */
+.project .name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: var(--navyblue);
+}
+/* checked */
+.project .type {
+  color: var(--slate);
+  font-weight: 400;
+  line-height: 1.87;
+}
+/* checked */
+.project {
+  text-decoration: none;
+}
