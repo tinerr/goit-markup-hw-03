@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>studio</title>
+    <title>Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com " />
+    <link rel="preconnect" href="https://fonts.gstatic.com " crossorigin />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
@@ -18,28 +20,34 @@
   <body>
     <!--this is the header-->
     <header class="page-header">
-      <div class="container header-container">
-        <nav class="header-navigation">
+      <div class="container menu">
+        <nav class="navigation">
           <a href="./index.html" class="logo-link">
             <span class="logo">WEB</span>
             <span class="studio">STUDIO</span>
           </a>
 
           <ul class="nav-menu list">
-            <li><a href="./index.html" class="page current">Studio</a></li>
-            <li><a href="./portfolio.html" class="page">Portfolio</a></li>
-            <li><a href="#" class="page">Contacts</a></li>
+            <li class="item">
+              <a href="./index.html" class="page current link">Studio</a>
+            </li>
+            <li class="item">
+              <a href="./portfolio.html" class="page link">Portfolio</a>
+            </li>
+            <li class="item"><a href="#" class="page link">Contacts</a></li>
           </ul>
         </nav>
 
         <ul class="contacts-menu list">
-          <li>
-            <a href="mailto:info@devstudio.com" class="item"
+          <li class="item">
+            <a href="mailto:info@devstudio.com" class="contact link"
               >info@devstudio.com</a
             >
           </li>
-          <li>
-            <a href="tel:+110001111111" class="item">+11(000)111-11-11</a>
+          <li class="item">
+            <a href="tel:+110001111111" class="contact link"
+              >+11(000)111-11-11</a
+            >
           </li>
         </ul>
       </div>
@@ -47,9 +55,9 @@
 
     <!-- this is the main section -->
     <main>
+      <!--This is section 1 -->
       <section class="hero bg-hero">
-        <!-- This is the Top Line section -->
-        <div class="hero-list">
+        <div class="container">
           <h1 class="hero-title">
             Effective Solutions <br />
             for Your Business
@@ -58,11 +66,11 @@
         </div>
       </section>
 
-      <!-- This is section1 -->
+      <!-- This is section 2 -->
       <section class="section">
-        <div class="container container-benefits">
+        <div class="container">
           <ul class="benefits list">
-            <li>
+            <li class="item">
               <h3 class="title">Strategy</h3>
               <p class="description">
                 Our goal is to identify the business <br />
@@ -71,7 +79,7 @@
               </p>
             </li>
 
-            <li>
+            <li class="item">
               <h3 class="title">Punctuality</h3>
               <p class="description">
                 Bring the key message to the <br />
@@ -80,7 +88,7 @@
               </p>
             </li>
 
-            <li>
+            <li class="item">
               <h3 class="title">Diligence</h3>
               <p class="description">
                 Research and confirm brands that <br />
@@ -89,7 +97,7 @@
               </p>
             </li>
 
-            <li>
+            <li class="item">
               <h3 class="title">Technologies</h3>
               <p class="description">
                 Design practice focused on digital <br />
@@ -101,29 +109,32 @@
         </div>
       </section>
 
-      <!-- This is section2 -->
-      <section class="section">
-        <div class="container container-what-we-do">
+      <!-- This is section 3 -->
+      <section class="section no-top-padding">
+        <div class="container">
           <h2 class="section-title">What Are We Doing</h2>
           <ul class="what-we-do list">
-            <li>
+            <li class="item">
               <img
+                class="image"
                 src="images/img1.jpg"
                 alt="computer"
                 width="370"
                 height="294"
               />
             </li>
-            <li>
+            <li class="item">
               <img
+                class="image"
                 src="images/img2.jpg"
                 alt="cellphone"
                 width="370"
                 height="294"
               />
             </li>
-            <li>
+            <li class="item">
               <img
+                class="image"
                 src="images/img3.jpg"
                 alt="computer and cellphone"
                 width="370"
@@ -134,51 +145,57 @@
         </div>
       </section>
 
-      <!-- This is section3 -->
-      <section class="section-team">
-        <div class="container container-team">
-          <h2 class="section-title">Our Team</h2>
+      <!-- This is section 4-->
+      <section class="section bg-team">
+        <div class="container">
+          <h2 class="section-title team">Our Team</h2>
           <ul class="team list">
-            <li class="team-card">
-              <img src="images/img4.jpg" alt="mark" width="270" height="260" />
-              <div class="card-description">
-                <h3 class="name">Mark Guerrero</h3>
-                <p class="position">Product Designer</p>
-              </div>
-            </li>
-
-            <li class="team-card">
-              <img src="images/img5.jpg" alt="tom" width="270" height="260" />
-              <div class="card-description">
-                <h3 class="name">Tom Ford</h3>
-                <p class="position">Frontend Developer</p>
-              </div>
-            </li>
-
-            <li class="team-card">
+            <li class="item">
               <img
+                class="image"
+                src="images/img4.jpg"
+                alt="mark"
+                width="270"
+                height="260"
+              />
+              <h3 class="name">Mark Guerrero</h3>
+              <p class="position">Product Designer</p>
+            </li>
+
+            <li class="item">
+              <img
+                class="image"
+                src="images/img5.jpg"
+                alt="tom"
+                width="270"
+                height="260"
+              />
+              <h3 class="name">Tom Ford</h3>
+              <p class="position">Frontend Developer</p>
+            </li>
+
+            <li class="item">
+              <img
+                class="image"
                 src="images/img6.jpg"
                 alt="camila"
                 width="270"
                 height="260"
               />
-              <div class="card-description">
-                <h3 class="name">Camila Garcia</h3>
-                <p class="position">Marketing</p>
-              </div>
+              <h3 class="name">Camila Garcia</h3>
+              <p class="position">Marketing</p>
             </li>
 
-            <li class="team-card">
+            <li class="item">
               <img
+                class="image"
                 src="images/img7.jpg"
                 alt="daniel"
                 width="270"
                 height="260"
               />
-              <div class="card-description">
-                <h3 class="name">Daniel Wilson</h3>
-                <p class="position">UI Designer</p>
-              </div>
+              <h3 class="name">Daniel Wilson</h3>
+              <p class="position">UI Designer</p>
             </li>
           </ul>
         </div>
@@ -188,7 +205,7 @@
     <!-- This is Footer -->
 
     <footer class="page-footer bg-footer">
-      <div class="footer">
+      <div class="container">
         <a href="./index.html" class="logo-link">
           <span class="logo">WEB</span>
           <span class="studio-2">STUDIO</span>
