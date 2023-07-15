@@ -189,6 +189,7 @@ body {
 /* start of section 2 */
 .benefits {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
   padding: 120px 156px;
   justify-content: space-between;
@@ -222,6 +223,7 @@ body {
 }
 .what-we-do {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding: 0px 156px 156px 156px;
 }
@@ -236,6 +238,7 @@ body {
 }
 .team.list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding: 0px 156px 156px 156px;
 }
